@@ -1,12 +1,79 @@
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 body{
-background-color = white;
+    background-color: #EEDC82;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table{
+    background-color: azure;
+}
+.row{
+    width: 100%;
+    border-color: black;
+    position: relative;
+    left: 5px;
 }
 @media (min-width: 992px){
-  
+    .col-lg-1, .col-lg-2, .col-lg-3 {
+        float: left;
+        border: 1px solid black;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;       
+      }
+      .col-lg-1 {
+        width: 8.33%;
+      }
+      .col-lg-2 {
+        width: 16.66%;
+      }
+      .col-lg-3 {
+        width: 25%;
+      }
 }
 @media (min-width: 768px) and (max-width: 991px){
-  
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5{
+        float: left;
+        border: 1px solid black;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;     
+      }
+      .col-md-1 {
+        width: 8.33%;
+      }
+      .col-md-2 {
+        width: 16.66%;
+      }
+      .col-md-3 {
+        width: 25%;
+      }
+      .col-md-4 {
+        width: 33.33%;
+      }
+      .col-md-5 {
+        width: 41.66%;
+      }
 }
 @media (max-width: 767px){
-  
+        .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+        border: 1px solid black;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;     
+      }
+      .col-sm-10 {
+        width: 83.33%;
+      }
+      .col-sm-11 {
+        width: 91.66%;
+      }
+      .col-sm-12 {
+        width: 100%;
+      }
 }
+    
